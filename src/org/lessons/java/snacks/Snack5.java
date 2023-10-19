@@ -2,7 +2,7 @@ package org.lessons.java.snacks;
 
 public class Snack5 {
     public static void main(String[] args) {
-        String numeroStr = "25";
+        String numeroStr = "255";
         int numeroInt = 0;
 
         for (int i = 0; i < numeroStr.length(); i++) {
@@ -10,7 +10,7 @@ public class Snack5 {
             int valoreCorrente = numeroStr.charAt(i) - '0';
 
             System.out.println(valoreCorrente);
-            // Aggiorna numeroInt moltiplicandolo per 10 (sposta il numero di una posizione)
+            // Aggiorna numeroInt moltiplicandolo per 10
             // e aggiunge il valoreCorrente
             numeroInt = numeroInt * 10 + valoreCorrente;
         }
