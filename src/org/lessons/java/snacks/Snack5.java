@@ -6,11 +6,12 @@ public class Snack5 {
         int numeroInt = 0;
 
         for (int i = 0; i < numeroStr.length(); i++) {
-
+            // Ottiene il valore numerico del carattere corrente
             int valoreCorrente = numeroStr.charAt(i) - '0';
 
             System.out.println(valoreCorrente);
-
+            // Aggiorna numeroInt moltiplicandolo per 10 (sposta il numero di una posizione)
+            // e aggiunge il valoreCorrente
             numeroInt = numeroInt * 10 + valoreCorrente;
         }
 
