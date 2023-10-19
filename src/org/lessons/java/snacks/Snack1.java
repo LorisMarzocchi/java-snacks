@@ -18,5 +18,7 @@ public class Snack1 {
             System.out.println("Il numero è dispari, stampo il numero successivo: " +numero);
            /* System.out.println("Il numero è dispari, stampo il numero successivo: " + (numero + 1));*/
         }
+        scan.close();
     }
+
 }
